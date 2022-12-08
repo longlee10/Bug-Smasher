@@ -1,0 +1,96 @@
+/*
+        Author: Hoang Long Le
+        ID: 301236235
+        Date: July 28, 2022
+*/
+
+body{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: garamond, 'times new roman', times, serif;
+}
+
+img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    cursor: pointer;
+    position:absolute;
+}
+
+#game-area{
+    width: 1000px;
+    height: 720px;
+    margin: auto;
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: rgb(182, 241, 182);
+    margin-top: 30px;
+}
+
+#play-area{
+    width: 1000px;
+    height: 560px;
+    background-image: url("leaves-img.jpg");
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#button-area{
+    width: 100%;
+}
+
+#score{
+    width: 40%;
+    float: left;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+#resetScore, #resetSpeed{
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 40px;
+    border: none;
+    background-color: rgb(117, 200, 79);
+    color: white;
+}
+
+#resetSpeed{
+    margin-left: 80px;
+}
+
+#resetScore:hover, #resetSpeed:hover{
+    background-color: rgb(97, 199, 50);
+    border: solid 2px black;
+}
+
+#resetScore:active, #resetSpeed:active{
+    box-shadow: 0 5px rgb(129, 127, 127);
+    transform: translateY(4px);
+}
+#scoreSection, #game-name{
+    width: 100%;
+    margin-top: 5px;
+}
+
+img:active{
+    box-shadow: 0 5px rgb(84, 84, 84);
+    transform: translateY(4px);
+}
+
+#scoreSection{
+    color: rgb(242, 22, 22);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#copy-right{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
